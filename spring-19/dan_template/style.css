@@ -9,15 +9,16 @@ body {
 h1 {
   margin-top: 0px;
   text-align: center;
-}
+color:blue;}
 
 h2 {
-  color: #243cbd;
-
+color:blue;
 }
+  
+
 
 hr {
-  border-color: #243cbd;
+  border-color: #1ba9d8;
 }
 
 div.container {
@@ -31,14 +32,19 @@ div.container {
 .box {
   padding: 2% 5% 2% 5%;
 }
-p{color: red;}
+
+p {
+color: red;
+}
+
+
 .img-toys div {
   width: 30%;
   display: inline-block;
   min-width: 200px;
-  height: 230px;
+  height: 200px;
   overflow: hidden;
-  border: 5px solid #243cbd;
+  border: 5px solid blue;
 
   /* animating images border radius and color */
   border-radius: 0;
@@ -49,11 +55,14 @@ p{color: red;}
 /* animating images border radius and color  */
 .img-toys div:hover {
   border-radius: 30%;
-  border-color: #4CAF50;
+  border-color: #1ba9d8;
   transition: border-radius 300ms ease-out, border-color 700ms ease-out;
 }
 
 .img-toys img {
   width: 100%;
   display: block;
+}
+li{
+color:red;
 }
